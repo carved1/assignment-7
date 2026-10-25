@@ -61,6 +61,7 @@ function Header({ setSearchResults, setSearchQuery, setSearchLoading, setSearchE
         <Link to="/" className="app-title">MovieShelf</Link>
         <nav className="nav-links">
           <Link to="/" className="nav-link">Home</Link>
+          <Link to="/watchlist" className="nav-link">Watchlist</Link>
           <Link to="/favorites" className="nav-link">Favorites</Link>
         </nav>
         <form className="search-container" onSubmit={handleSubmit}>
